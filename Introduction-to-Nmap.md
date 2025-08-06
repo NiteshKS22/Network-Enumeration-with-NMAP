@@ -26,18 +26,17 @@ Nmap offers many different types of scans that can be used to obtain various res
 - Scriptable interaction with the target service (Nmap Scripting Engine)  
 
 ## Syntax
-
+```
 Offensive404@htb[/htb]$ nmap <scan types> <options> <target>
+```
 
 
 ## Scan Techniques
 
 Nmap offers many different scanning techniques, making different types of connections and using differently structured packets to send. Here we can see all the scanning techniques Nmap offers:
-'''
-
+```
 Offensive404@htb[/htb]$ nmap --help
-
-'''
+```
 
 ## Output
 
