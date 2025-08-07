@@ -52,3 +52,20 @@ curl -I https://example.com     # Fetch HTTP headers
 curl -X GET https://api.example.com/data
 ```
 
+### 5. [Let’s Encrypt](https://letsencrypt.org/)
+`Let’s Encrypt` is a free, automated, and open certificate authority (CA) that provides SSL/TLS certificates. It's used to enable HTTPS on websites easily and securely, without the need to purchase traditional certificates.
+
+**Use Cases:**
+- Securing web applications with HTTPS
+- Automating SSL certificate issuance and renewal
+- Demonstrating trust via certificate transparency logs
+
+**Tools Integration:**
+- Works with tools like Certbot for easy setup
+- Visible in crt.sh logs, making it useful for reconnaissance
+
+**Example (using Certbot):**
+
+```bash
+sudo certbot --nginx -d example.com
+```
