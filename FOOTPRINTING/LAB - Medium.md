@@ -1,3 +1,12 @@
+This second server is a server that everyone on the internal network has access to. In our discussion with our client, we pointed out that these servers are often one of the main targets for attackers and that this server should be added to the scope.
+
+Our customer agreed to this and added this server to our scope. Here, too, the goal remains the same. We need to find out as much information as possible about this server and find ways to use it against the server itself. For the proof and protection of customer data, a user named HTB has been created. Accordingly, we need to obtain the credentials of this user as proof.
+
+
+
+
+
+
 ## Nmap the IP
 <img width="857" height="175" alt="image" src="https://github.com/user-attachments/assets/dfc3f390-eaab-4e17-b917-e0d787927d96" />
 <img width="708" height="439" alt="image" src="https://github.com/user-attachments/assets/0c1dd19c-91b7-4836-9fc0-4f2c309b3cd8" />
@@ -57,4 +66,5 @@ xfreerdp /v:IP /u:Administrator /p:PASSWORD
 
 
 
+<img width="954" height="127" alt="image" src="https://github.com/user-attachments/assets/36e3b69f-c06c-4968-9580-9c6380c05ab6" />
 
